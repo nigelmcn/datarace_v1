@@ -64,11 +64,11 @@ section{padding:clamp(72px,10vw,120px) 0;border-top:1px solid var(--line)}
 .who-role{margin:0;font-size:14px;color:var(--muted);line-height:1.5}
 @media (max-width:860px){.hero-grid{grid-template-columns:1fr}.who{border-left:0;padding-left:0;display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center}.portrait{aspect-ratio:1}.portrait::before{font-size:44px}.portrait p{display:none}.who-name{margin-top:0}}
 
-.facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:clamp(56px,8vw,88px)}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);margin-top:clamp(56px,8vw,88px)}
 .facts div{padding:28px 24px 0 0}
 .facts b{display:block;font-family:var(--display);font-weight:300;font-size:clamp(32px,3.6vw,42px);line-height:1;margin-bottom:10px}
 .facts span{font-size:14px;color:var(--muted);line-height:1.45;display:block;max-width:220px}
-@media (max-width:760px){.facts{grid-template-columns:1fr 1fr}.facts div{padding-bottom:8px}}
+@media (max-width:760px){.facts{grid-template-columns:1fr}.facts div{padding-bottom:8px}}
 
 /* problem */
 .split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:clamp(32px,6vw,96px)}
