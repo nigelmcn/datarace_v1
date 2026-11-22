@@ -57,6 +57,7 @@ section{padding:clamp(72px,10vw,120px) 0;border-top:1px solid var(--line)}
 .hero h1 .nw{white-space:nowrap}
 @media (max-width:520px){.hero h1 .nw{white-space:normal}}
 .hero .essence{font-family:var(--display);font-size:clamp(20px,2vw,24px);letter-spacing:.5px;color:var(--text);margin:28px 0 0;padding-left:16px;border-left:2px solid var(--accent)}
+.hero h1 .h1-for{font-size:.6em;font-weight:300;color:var(--muted)}
 .hero .lead strong{color:var(--text);font-weight:400}
 .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
 .who{border-left:1px solid var(--line-2);padding-left:28px}
